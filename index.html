@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login Page</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="auth">
+    <div class="auth__container">
+      <img src="logo.svg" alt="Company Logo" class="auth__logo" />
+
+      <h1 class="auth__title">Welcome back</h1>
+
+      <form class="auth__form">
+        <label class="auth__label">
+          <span>Email</span>
+          <input type="email" class="auth__input" required />
+        </label>
+
+        <label class="auth__label">
+          <span>Password</span>
+          <input type="password" class="auth__input" required />
+        </label>
+
+        <div class="auth__actions">
+          <a href="#" class="auth__link">Forgot your password?</a>
+        </div>
+
+        <button type="submit" class="auth__button">Sign in</button>
+      </form>
+
+      <div class="auth__footer">
+        <span>Don't have an account?</span>
+        <a href="#" class="auth__link">Sign up</a>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
